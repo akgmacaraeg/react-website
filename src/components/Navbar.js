@@ -32,7 +32,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          TRVL <GiMountaintop />
+          TRVL&nbsp;<GiMountaintop />
           </Link>
           <div className="menu-icon" onClick= {handleClick}>
             { click ?  <FaTimes color="white"/>: <GiHamburgerMenu color="white"/>}
